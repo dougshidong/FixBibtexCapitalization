@@ -2,6 +2,8 @@
 
 This script will ensure that words you have capitalize and want to keep capitalized in your bibtex file will stay capitalized by surrounding it with curly braces {}.
 
+The list of proctected words are controlled through `protected_word_list.py`.
+
 Please backup your .bib file, I am not responsible if you mess it up.
 
 `python3 fix_bibliography_titles.py`
