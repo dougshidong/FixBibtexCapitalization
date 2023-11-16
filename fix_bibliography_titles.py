@@ -1,6 +1,3 @@
-import biblib.bib
-import biblib.messages
-import biblib.algo
 import argparse
 import sys
 import re
@@ -20,7 +17,7 @@ list_of_replaceable_words.sort(key=len, reverse=True)
 
 title_line = '  title'
 file_input = open('00000_references.bib', 'r')
-file_output = open('002_references.bib', 'w')
+file_output = open('output_references.bib', 'w')
 word_delimiters = "[().,;:\-' ]"
 # For each line in the file change the title to be add {} around words from the list of capitalized words
 # and write out a new file
