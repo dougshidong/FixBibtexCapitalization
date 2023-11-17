@@ -7,7 +7,7 @@ The list of proctected words are controlled through `protected_word_list.py`.
 Please backup your .bib file, I am not responsible if you mess it up.
 
 `python3 fix_bibliography_titles.py`
-gives the output below and output a new .bib output with fixed Title entries. The output below is meant for review of what has changed.
+gives the output below and output a new .bib output with fixed Title entries. The output below is meant for review of what has changed. Note that if your word was not capitalized beforehand, for example `newton`, it will not change it to `Newton`. This is only meant to "protect" existing capitalizations.
 ```
   title          = {An adaptive refinement strategy for hp-finite element computations},
   title     = {Aerodynamic design optimization on unstructured grids with a continuous adjoint formulation},
